@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "mv": "rm middleware.js && mv middleware-sample.js middleware.js"
+    "mv": "rm middleware.js && mv middleware-sample.js middleware.js",
+    "rm-only": "rm middleware.js"
   },
   "author": "",
   "license": "ISC",
