@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sample": "zx ./sample.mjs"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@vercel/edge": "^1.2.1"
+    "@vercel/edge": "^1.2.1",
+    "zx": "^8.3.2"
   }
 }
