@@ -2,14 +2,11 @@
   "name": "vercel-basic-auth-static-pages-example",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {
-    "sample": "zx ./sample.mjs"
-  },
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "@vercel/edge": "^1.2.1",
-    "zx": "^8.3.2"
+    "@vercel/edge": "^1.2.1"
   }
 }
