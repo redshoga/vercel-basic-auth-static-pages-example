@@ -2,7 +2,9 @@
   "name": "vercel-basic-auth-static-pages-example",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "mv": "mv middleware-sample.js middleware.js"
+  },
   "author": "",
   "license": "ISC",
   "description": "",
