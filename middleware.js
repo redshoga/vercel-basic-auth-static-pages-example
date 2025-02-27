@@ -1,9 +1,7 @@
 import { next } from "@vercel/edge";
 
-const ENABLE_MIDDLEWARE = process.env.ENABLE_MIDDLEWARE === "true";
-
 export const config = {
-  matcher: ENABLE_MIDDLEWARE ? '/(.*)' : undefined,
+  matcher: '/(.*)',
 };
 
 export default function middleware(request) {
