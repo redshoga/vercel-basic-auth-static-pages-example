@@ -1,7 +1,7 @@
 import { next } from "@vercel/edge";
 
 export const config = {
-  matcher: process.env.MATCHER,
+  matcher: '/(.*)',
 };
 
 export default function middleware(request) {
